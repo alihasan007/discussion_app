@@ -1,4 +1,6 @@
 "use client";
+import * as actions from "@/actions";
+import { useSession } from "next-auth/react";
 import {
   Avatar,
   Button,
@@ -7,8 +9,6 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@nextui-org/react";
-import { useSession } from "next-auth/react";
-import * as actions from "@/actions";
 
 export default function HeaderAuth() {
   const session = useSession();
