@@ -1,5 +1,5 @@
 import Link from "next/link";
-import paths from "@/path";
+import paths from "@/paths";
 import { PostWithData } from "@/db/queries/post";
 
 interface PostListProps {

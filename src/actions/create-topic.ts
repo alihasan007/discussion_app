@@ -1,7 +1,7 @@
 "use server";
 import type { Topic } from "@prisma/client";
 import { redirect } from "next/navigation";
-import paths from "@/path";
+import paths from "@/paths";
 import { db } from "@/db";
 import { auth } from "@/auth";
 import { z } from "zod";
